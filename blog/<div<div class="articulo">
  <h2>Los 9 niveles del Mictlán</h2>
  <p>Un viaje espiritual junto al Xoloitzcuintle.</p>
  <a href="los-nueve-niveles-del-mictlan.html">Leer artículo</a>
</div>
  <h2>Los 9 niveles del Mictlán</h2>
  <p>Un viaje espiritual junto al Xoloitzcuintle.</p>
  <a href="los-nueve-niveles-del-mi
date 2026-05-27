@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título del Artículo - Xolos Ramirez Blog</title>
+    <style>
+        /* Estilos básicos y limpios para lectura cómoda */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        article {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            color: #111;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+        .meta-datos {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        .contenido p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        .contenido h2 {
+            color: #222;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        .contenido img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        .btn-volver {
+            display: inline-block;
+            margin-top: 20px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .btn-volver:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <article>
+        <header>
+            <!-- Título principal del artículo -->
+            <h1>El Misterio y la Magia del Xoloitzcuintle</h1>
+            
+            <!-- Datos del artículo -->
+            <div class="meta-datos">
+                Publicado el <time datetime="2026-05-27">27 de Mayo, 2026</time> por <strong>xolosArmy</strong>
+            </div>
+        </header>
+
+        <section class="contenido">
+            <!-- Introducción -->
+            <p>El Xoloitzcuintle no es solo una raza de perro; es un fragmento vivo de la historia prehispánica de México. Considerado un guía espiritual y un compañero sagrado, su legado sigue tan vivo como hace miles de años.</p>
+
+            <!-- Imagen opcional (puedes cambiar la URL por la de tu imagen) -->
+            <!-- <img src="ruta-de-tu-imagen.jpg" alt="Descripción de la imagen"> -->
+
+            <!-- Subtítulo -->
+            <h2>Un guardián del inframundo</h2>
+            <p>En la mitología mexica, se creía que estos guardianes sin pelo acompañaban a las almas de los difuntos a cruzar el caudaloso río del <em>Mictlán</em> (el inframundo). Su calor corporal característico no solo reconfortaba en vida, sino que se consideraba medicinal y sagrado.</p>
+
+            <h2>El Xolo en la actualidad</h2>
+            <p>Hoy en día, el interés por preservar esta raza ha crecido enormemente. De estar al borde de la extinción, se ha convertido en un ícono de la identidad cultural y el orgullo mexicano en todo el mundo.</p>
+        </section>
+
+        <footer>
+            <p>© 2026 xolosramirez blog. Todos los derechos reservados.</p>
+            <a href="../" class="btn-volver">← Volver al inicio</a>
+        </footer>
+    </article>
+
+</body>
+</html>
